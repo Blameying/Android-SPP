@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffffff">
+    <com.example.blame.bluetoothkey.ControlLineView
+            android:id="@+id/message_control_line"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+    </com.example.blame.bluetoothkey.ControlLineView>
+    <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:textColor="@color/green"
+            android:gravity="top"
+            android:background="@drawable/editview"
+    />
+    <TextView
+            android:id="@+id/time_display"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#ebebeb"
+            android:textColor="#6ec4fa"
+            android:gravity="center"
+            android:visibility="gone"
+            />
+</LinearLayout>

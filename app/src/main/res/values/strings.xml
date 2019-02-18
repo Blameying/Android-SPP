@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">蓝牙串口</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="open_status" color="#00ff00">蓝牙状态：打开</string>
+    <string name="close_status" color="#ff0000">蓝牙状态：关闭</string>
+    <string name="open_button">开启</string>
+    <string name="close_button">关闭</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

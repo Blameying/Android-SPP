@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#ebebeb">
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <NumberPicker
+                android:id="@+id/number"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp">
+        </NumberPicker>
+        <NumberPicker
+                android:id="@+id/time_type"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="150dp"
+                >
+        </NumberPicker>
+    </LinearLayout>
+    <Button android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="确认"
+            android:textColor="#6ec4fa"
+            android:background="#ebebeb"
+    />
+
+</LinearLayout>

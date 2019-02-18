@@ -1,0 +1,18 @@
+Android 蓝牙上位机 
+
+输出窗口一次只允许一个运行
+输入窗口一次只允许一个运行
+
+波形图数据格式为
+{标签名:整数}
+example:
+{tag:34}
+
+灰度图图像为:
+[[[width,width,height,height,数据]]]
+example:
+[[[0x02 0x00 0x02 0x00 0x00 0x00 0xff 0xff]]]
+width 为 (0x00 << 8)|0x02
+height 为 (0x00 << 8)|0x02
+
+
